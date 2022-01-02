@@ -1,3 +1,4 @@
+/* used in all page except text inputs */
 * {
   text-align: center;
 }
@@ -11,7 +12,7 @@ table {
   background-color: #eee;
   padding: 0;
 }
-
+/* removes markers of list item elements */
 ul {
   list-style-type: none;
   margin: 0;
