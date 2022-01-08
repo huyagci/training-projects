@@ -1,0 +1,14 @@
+/assets
+/readme.md
+
+# IMG
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.png
+*.tiff
+*.tif
+*.svg
+*.bmp
+*.ico

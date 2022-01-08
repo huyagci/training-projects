@@ -1,5 +1,91 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: white;
 }
 
+body {
+    background-color: #202124;
+}
+
+main {
+    text-align: center;
+}
+
+main input {
+    color: black;
+}
+
+header {
+    height: 200px;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.nav-top ul {
+    display: table;
+}
+
+.nav-top li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+#apps-img {
+    width: 20px;
+}
+
+#user-img {
+    width: 32px;
+    border-radius: 32px;
+}
+
+.nav-bot-container {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.nav-bot-container ul {
+    display: table;
+}
+.nav-bot-container li {
+    display: table-cell;
+}
+
+.nav-bot-r1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 5px;
+}
+.nav-bot-r2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bot-r2l, .nav-bot-2r2 {
+    padding: 0 5px;
+}
+
+.nav-bot-r1 li {
+    padding: 0 5px;
+    color: yellow;
+}
+
+.nav-bot-r2l a {
+    padding: 0 5px;
+    color: green;
+}
+
+.nav-bot-r2r a {
+    padding: 0 5px;
+    color: indianred;
+}

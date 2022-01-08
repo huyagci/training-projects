@@ -11,43 +11,51 @@
     <header>
       <nav class="nav-top">
         <ul>
-          <li>Gmail</li>
-          <li>Images</li>
-          <li>APPS</li>
-          <li>USER</li>
+          <li><a href="#" target="_blank">Gmail</a></li>
+          <li><a href="#" target="_blank">Images</a></li>
+          <li><a href="#" target="_blank"><img src="assets/appsbutton.svg" id="apps-img"></a></li>
+          <li><a href="#" target="_blank"><img src="assets/user_icon.png" id="user-img"></a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <img src="GOOGLE" alt="" />
+      <img src="assets/logo_dm.png" alt="" />
       <section id="search-bar">
-        <input type="text" name="search-bar" id="sb" />
+        <input type="text" name="search-bar" id="sb" style="text-align: left;" autofocus />
       </section>
       <section id="search-buttons">
         <input type="submit" value="Google Search" />
         <input type="submit" value="I'm Feeling Lucky" />
+        <br>
         Google offered in: <a href="#">Türkçe</a>
       </section>
     </main>
 
-    <footer>
-      <nav class="nav-bot1">
+    <footer class="nav-bot-container">
+      <nav class="nav-bot-r1">
         <ul>
           <li>Turkey</li>
         </ul>
       </nav>
-      <nav class="nav-bot2">
+      <div class="nav-bot-r2">
+        <nav class="nav-bot-r2l">
         <ul>
-          <li>About</li>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>How Search works</li>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How Search works</a></li>
         </ul>
       </nav>
+        <nav class="nav-bot-r2r">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </div>
     </footer>
+
   </body>
 </html>
