@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
     text-decoration: none;
     color: white;
 }
@@ -9,22 +11,23 @@ body {
     background-color: #202124;
 }
 
-main {
-    text-align: center;
-}
-
-main input {
-    color: black;
+.container-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 header {
-    height: 200px;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .nav-top {
     display: flex;
     justify-content: flex-end;
-    padding: 15px;
+
 }
 
 .nav-top ul {
@@ -46,46 +49,77 @@ header {
     border-radius: 32px;
 }
 
-.nav-bot-container {
+main {
+    height: 560px;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+}
+
+main input {
+    color: black;
+}
+
+#sb {
+    width: 584px;
+    height: 44px;
+    border: solid 1px #5f6368;
+    border-radius: 24px;
+    background-color: #202124;
+    margin-top: 50px;
+    margin-bottom: 15px;;
+}
+
+#sb:hover {
+    background-color: #5f6368;
+}
+
+footer {
+
+    display: flex;
     position: fixed;
     bottom: 0;
-    display: flex;
+    left: 0;
+    right: 0;
     flex-direction: column;
     flex-wrap: nowrap;
+    box-sizing: border-box;
+    background-color: #171717;
 }
 
-.nav-bot-container ul {
+footer ul {
     display: table;
 }
-.nav-bot-container li {
+footer li {
     display: table-cell;
+    font-size: 15px;
 }
 
+/* footer a {
+    font-size: 14px;
+} */
+
 .nav-bot-r1 {
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 5px;
+    float: left;
+    padding: 15px 30px;
+    border-bottom: solid 1px #212327;
 }
 .nav-bot-r2 {
     display: flex;
     justify-content: space-between;
+    padding: 15px 30px;
 }
 
-.nav-bot-r2l, .nav-bot-2r2 {
-    padding: 0 5px;
-}
-
-.nav-bot-r1 li {
-    padding: 0 5px;
-    color: yellow;
+.nav-bot-r2r {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bot-r2l a {
-    padding: 0 5px;
-    color: green;
+    padding-right: 15px;
 }
 
 .nav-bot-r2r a {
-    padding: 0 5px;
-    color: indianred;
+    padding-left: 15px;
 }
