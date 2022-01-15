@@ -1,4 +1,4 @@
-/assets
+
 /readme.md
 
 # IMG
@@ -6,7 +6,7 @@
 *.jpeg
 *.gif
 *.webp
-*.png
+
 *.tiff
 *.tif
 *.svg
