@@ -1,8 +1,10 @@
-## Proje 1 - Insertion Sort
+### Proje 1 - Insertion Sort
 
 ---
 
-`verilenDizim = [22,27,16,2,18,6]`
+```
+verilenDizim = [22,27,16,2,18,6]
+```
 
 1.  #### Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
@@ -23,11 +25,12 @@
 4.  #### Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
         Average Case
-        [2, 6, 16, **18**, 22, 27]
 
 ---
 
-`verilenDizim = [7,3,5,8,2,9,4,15,6]`
+```
+verilenDizim = [7,3,5,8,2,9,4,15,6]
+```
 
 1.  #### Yukarı verilen dizinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
