@@ -1,4 +1,4 @@
-## Project 1 - Insertion Sort
+## Proje 1 - Insertion Sort
 
 `verilenDizim = [22,27,16,2,18,6]`
 
@@ -10,7 +10,7 @@
 
 - #### Big-O gösterimini yazınız.
 
->
+`O(n^2^)`
 
 3. Time Complexity:
 
