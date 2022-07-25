@@ -1,0 +1,42 @@
+/* used in all page except text inputs */
+* {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+}
+
+.search-bar {
+  background-color: #eee;
+  padding: 0;
+}
+/* removes markers of list item elements */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-navbar {
+  background-color: #7ee5da;
+  width: 37%;
+}
+
+.main-navbar {
+  background-color: #71ccc2;
+  width: 20%;
+  font-size: 13px;
+}
+
+.right-navbar {
+  background-color: #62b3aa;
+  width: 43%;
+  font-size: 13px;
+}
+
+footer {
+  font-size: 13px;
+  margin-top: 16px;
+}
