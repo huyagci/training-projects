@@ -1,0 +1,13 @@
+* {
+    bottom: 0;
+    padding: 0;
+    background-color: rgb(32, 33, 36);
+}
+
+.text-primary {
+    color: blue !important;
+}
+
+.text-danger {
+    color: red !important;
+}
